@@ -14,6 +14,6 @@ make clean
 # compile and link the project
  make all
 
-# upload the code to stm32f4 (requires root privileges)
+# upload the code to stm32f1 (requires root privileges)
  make flash
 
