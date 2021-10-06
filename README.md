@@ -1,7 +1,7 @@
-# stm32f103-build
+# stm32f1-build-FreeRTOS
 The build requires the following:
 - [GNU Tools for ARM Embedded Processors toolchain](https://launchpad.net/gcc-arm-embedded) (compiler, objcopy)
-- [STLINK software](https://github.com/texane/stlink) (uploading code to stm32f103)
+- [STLINK software](https://github.com/texane/stlink) (uploading code to stm32f1)
 - [STM32 Standard Peripheral Libraries](http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-standard-peripheral-libraries/stsw-stm32054.html)
 
 
@@ -14,6 +14,6 @@ make clean
 # compile and link the project
  make all
 
-# upload the code to stm32f103 (requires root privileges)
+# upload the code to stm32f4 (requires root privileges)
  make flash
 
